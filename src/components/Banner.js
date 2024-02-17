@@ -12,10 +12,16 @@ const Banner = () => {
             Us.
           </h1>
           <p className="max-w-[480px] mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit modi eos quaerat? Ea exercitationem ratione, labore
-            veniam, vel distinctio facilis maxime, voluptatum vitae iste aut
-            neque fuga! Animi, eveniet sequi!
+            Welcome to HomeLand, where your dream home awaits. Our team of
+            dedicated professionals is committed to helping you find the perfect
+            property to call home. Whether you're searching for a cozy apartment
+            in the heart of the city, a spacious family house in the suburbs, or
+            a luxurious waterfront estate, we have the expertise and resources
+            to make your real estate dreams a reality. Explore our wide range of
+            listings, tailored to suit every lifestyle and budget. With
+            personalized service and attention to detail, we're here to guide
+            you every step of the way on your journey to finding the home of
+            your dreams.
           </p>
         </div>
         <div className="hidden flex-1 lg:flex justify-end items-end">

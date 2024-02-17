@@ -48,7 +48,15 @@ const PropertyDetails = () => {
                 <div>{house.surface}</div>
               </div>
             </div>
-            <div>{house.description}</div>
+            <div className="text-justify">
+              Discover this charming house in a serene neighborhood, featuring a
+              cozy living room with a fireplace, a gourmet kitchen with granite
+              countertops, and a spacious backyard. Retreat to the master suite
+              with an ensuite bathroom and walk-in closet. Enjoy outdoor living
+              on the patio surrounded by mature trees. Conveniently located near
+              schools, parks, and shopping, this home offers comfort and
+              tranquility.
+            </div>
           </div>
           <div className="flex-1 bg-white w-full mb-8 border border-gray-300 rounded-lg px-6 py-8">
             <div className="flex items-center gap-x-4 mb-8">
@@ -85,10 +93,10 @@ const PropertyDetails = () => {
               ></textarea>
               <div className="flex gap-x-2">
                 <button className="bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition">
-                  Send message
+                  <a href="/">Send message</a>
                 </button>
                 <button className="border border-violet-700 text-violet-700 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition">
-                  Call
+                  <a href="/">Call</a>
                 </button>
               </div>
             </form>
